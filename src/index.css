@@ -1,13 +1,137 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.review-star {
+  color: #f2b827;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  line-height: 1;
+  flex-wrap: wrap;
+}
+
+.review-star ul {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.review-star p {
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0 10px 0px 0px;
+}
+
+.review-star h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#app-settings-dd {
+  display: none;
+}
+
+.read-more {
+  margin-right: 5px;
+}
+
+.HomeHeroComponent {
+  position: relative;
+}
+
+.mv-hero__background {
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://a.storyblok.com/f/60579/2880x1360/defb1ea7b9/mvcom_hp_aa_bg.jpg");
+}
+
+.mv-hero__wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.all-access-unlocked {
+  margin: 1.5rem 13px 0 13px;
+}
+
+.mv-type--title4 {
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+  letter-spacing: 0.00893em;
+}
+
+.mv-type--titlebold3 {
+  line-height: 3.25rem;
+  letter-spacing: normal;
+  color: black;
+  font-weight: 700;
+}
+
+.mv-type--titlebold3 p {
+  font-size: 3rem;
+}
+
+.mv-type--titlebold3 span {
+  color: #005cff !important;
+}
+
+.mv-type--titlebold5 h6 {
+  font-weight: 700 !important;
+  font-size: 1.75rem !important;
+}
+
+.mv-btn--primary {
+  background: linear-gradient(180deg, #06f, #003fff);
+  border-radius: 999px;
+  width: fit-content;
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  color: white !important;
+  min-height: 55px;
+  min-width: 220px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.how-mindvalley-wokrs {
+  margin-top: 1.5rem;
+}
+
+.how-mindvalley-wokrs article {
+  display: grid !important;
+}
+
+.mv-type--title4 > h3 {
+  font-size: 1.75rem !important;
+  line-height: 2.125rem !important;
+  letter-spacing: 0.00893em;
+  font-weight: 400 !important;
+}
+
+.mv-type--titlebold4 {
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: 0.00694em;
+  font-weight: 700;
 }

@@ -135,3 +135,8 @@ code {
   letter-spacing: 0.00694em;
   font-weight: 700;
 }
+
+.btn-social {
+  font-size: 2rem !important;
+  padding: 1.3rem !important;
+}

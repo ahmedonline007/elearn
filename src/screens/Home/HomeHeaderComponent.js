@@ -6,7 +6,7 @@ export default function HomeHeaderComponent() {
     return (
         <div style={{ top: '65px' }}
             className="mdk-box mdk-box--bg-gradient-primary bg-dark js-mdk-box position-relative overflow-hidden mb-0"
-            data-effects="parallax-background blend-background">
+            >
             <div className="mdk-box__bg">
                 <div
                     className="mdk-box__bg-front"

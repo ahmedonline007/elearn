@@ -140,3 +140,12 @@ code {
   font-size: 2rem !important;
   padding: 1.3rem !important;
 }
+
+#CoursesDetails-flex {
+  display: flex !important;
+  flex: initial !important;
+}
+
+.CoursesDetailsIncludes {
+  font-weight: 400 !important;
+}

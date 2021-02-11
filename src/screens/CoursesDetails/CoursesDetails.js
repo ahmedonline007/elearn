@@ -852,19 +852,19 @@ class CoursesDetails extends Component {
                                 </div>
                                 <div className="lg:w-4/12 -mt-32 uk-visible@m ">
                                     <div className="lg:ml-6 -mt-64">
-                                        <div uk-sticky="offset: 160 ; media : @s ; bottom: #stucky-end-here">
+                                        <div>
                                             <div className="bg-white overflow-hidden rounded-md shadow shadow-xl">
                                                 <div className="relative w-full h-48">
                                                     <a href="#trailer-modal" uk-toggle="true">
                                                         <img src={img3} alt="" className="absolute h-16 object-cover w-16 z-10"
-                                                            style={{ top: "50%", left: "50%" }} />
-                                                        <img src={img1} alt="" className="w-full h-full absolute object-cover" />
+                                                            style={{ top: "50%", left: "50%", transform: "translate(-50%, -50%)", }} />
+                                                        <img src={img1} alt="" className="w-full h-full absolute object-cover top-0" />
                                                     </a>
                                                 </div>
                                                 <div className="p-6">
 
-                                                    <div className="flex justify-center items-center gap-x-2">
-                                                        <div className="flex">
+                                                    <div id='CoursesDetails-flex' className="justify-center items-center gap-x-2">
+                                                        <div id="CoursesDetails-flex">
                                                             <img src={img4} alt="" className="border-4 border-solid border-white h-8 w-8 rounded-full" />
                                                             <img src={img5} alt="" className="border-4 border-solid border-white h-8 w-8 rounded-full -ml-2" />
                                                             <img src={img4} alt="" className="border-4 border-solid border-white h-8 w-8 rounded-full -ml-2" />
@@ -876,12 +876,12 @@ class CoursesDetails extends Component {
                                                     </div>
 
                                                     <div className="mb-2">
-                                                        <a onClick={() => this.props.history.push("/Enrollment")} className="bg-orange-600 inline-block my-2 my-4 py-1 rounded-full text-center text-white hover:text-orange-100 w-full" style={{ backgroundColor: "#dd6b20", color: "white", cursor: "pointer" }}> Enroll </a>
+                                                        <a onClick={() => this.props.history.push("/Enrollment")} className="bg-orange-600 inline-block my-3 py-2 rounded-full text-center text-white hover:text-orange-100 w-full" style={{ backgroundColor: "#dd6b20", color: "white", cursor: "pointer" }}> Enroll </a>
                                                     </div>
 
-                                                    <hr className="-mx-6 border-gray-200 mb-4" />
+                                                    <hr className="-mx-6 border-gray-200 mb-3" />
 
-                                                    <h4> COURSE INCLUDES</h4>
+                                                    <h4 className="CoursesDetailsIncludes"> COURSE INCLUDES</h4>
 
                                                     <div className="flex gap-4 text-gray-600">
                                                         <div>
